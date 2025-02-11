@@ -264,6 +264,7 @@ puts "There are #{Role.all.count} roles."
 puts "Movies"
 puts "======"
 puts ""
+
 movies = Movie.all
 for movie in movies
     title = movie["title"]
